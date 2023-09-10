@@ -21,8 +21,9 @@ int main(){
     {
         array[i]=array[i+1];
     }
+    size--;
     printf("The new array is :");
-     for(i=0;i<size-1;i++)
+     for(i=0;i<size;i++)
     {
         printf(" %d  ",array[i]);
        
