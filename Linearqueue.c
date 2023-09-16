@@ -25,7 +25,7 @@ void enqueue()
 }
 void dequeue()
 {
-    if(front == -1 || front == size)//check if front is -1 or front is equal which means the queue is empty
+    if(front == -1 || front == size)//check if front is -1 or front is equal to size of the queue which means the queue is empty
     {
         printf("Queue is Empty");
     }
@@ -41,7 +41,7 @@ void dequeue()
 }
 void display()
 {
-   if(front == -1 || front == size) //check if front is -1 or front is equal which means the queue is empty
+   if(front == -1 || front == size) //check if front is -1 or front is equal to size of the queue which means the queue is empty
    {
     printf("Queue is Empty");
    }
