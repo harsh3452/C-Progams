@@ -33,7 +33,7 @@ void dequeue()
         printf("Dequeued elment is %d", queue[front]);
         rear = front = 0;
     }
-    else if ((rear+1) == front)
+    else if ((rear + 1) == front)
     {
         printf("Underflow");
     }
@@ -55,9 +55,10 @@ void display()
     printf("%d", queue[rear]);
 }
 void main()
-{   printf("Enter the size of queue:");
-    scanf("%d",&size);
-    printf("Operations \n 1.Push \t 2.Pop \t 3.Display \t 4.Exit \n"); 
+{
+    printf("Enter the size of queue:");
+    scanf("%d", &size);
+    printf("Operations \n 1.Push \t 2.Pop \t 3.Display \t 4.Exit \n");
     do
     {
         printf("\nEnter  your choice :");
@@ -84,11 +85,11 @@ void main()
             printf("SEE YAA!!");
             break;
         }
-        default :
+        default:
         {
             printf("Enter a valid choice!!");
             break;
         }
         }
-    }while(op != 4);
+    } while (op != 4);
 }
