@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 int queue[100];
 int x, op, rear = -1, front = -1, size;
 void enqueue()
@@ -91,5 +92,6 @@ int main()
         }
         }
     }while(op != 4);
+    getch();
     return 0;
 }
